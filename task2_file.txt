@@ -1,0 +1,8 @@
+alice.jpeg md5 96df9a9bd4130914eb6d8314fd18bc0a
+example.txt sha1 0a3f4b4e20d0a7ed38ba392618c09019169b668d
+Пример.txt sha256 992d0dc1d3b4ae38abdaaf9f9be890c649ed67d0e6dabee8d4f282ea8fefa855
+example3.txt md5 filedoesntexists
+example2.txt sha1 9321c16a06690d26ff25f79faf6ee7617bffe262
+example2.txt sha1
+empty.txt md5 d41d8cd98f00b204e9800998ecf8427e
+example.txt wrong 0a3f4b4e20d0a7ed38ba392618c09019169b668d
