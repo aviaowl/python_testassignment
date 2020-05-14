@@ -1,5 +1,15 @@
 import subprocess
 import json
+'''
+Given a file containing a text string - indicating the path to the disk device in the Linux system. 
+Read the file and display (stdout) the following disk device information:
+Device type, for example: disk, part, lvm, rom; The total amount in gigabytes;
+
+In cases where it makes sense (for example, if the path is a disk partition), output also:
+The amount of free space in megabytes;
+Type of file system, for example: ext4, swap;
+Mount point. On the Linux system where the code will be executed, coreutils and util-linux packages are installed.
+'''
 
 device_name = None
 with open('task1_file.txt') as file:
