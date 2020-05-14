@@ -1,6 +1,12 @@
 import sys
 import os
 import subprocess
+'''
+Given a file containing file names, a hash algorithm (one of MD5 / SHA1 / SHA256) and their 
+corresponding hash sums, calculated by the corresponding algorithm and indicated in 
+the file with a space. Write a program that reads this file and checks the integrity of the 
+files using either the standard Python library or the md5sum / sha1sum / sha256sum program.
+'''
 
 if len(sys.argv) < 3:
     print(f'Error. Not enough arguments, expected: 3, got: {len(sys.argv)}')
